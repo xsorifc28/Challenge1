@@ -15,6 +15,9 @@ export default class App extends ux.App {
     static _template() {
         return {
             w: 1920, h: 1080, rect: true, color: 0xff081c24, colorLeft: 0x2001d277, colorBottom: 0xff081c24,
+            Splash: {
+                type: Splash
+            }
         };
     }
 
